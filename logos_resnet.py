@@ -34,7 +34,7 @@ start_time = time.time()  # Start timer
 
 # Load domains
 df = pd.read_parquet("logos.snappy.parquet")
-df = df.head(100)  # Limit for testing
+#df = df.head(100)  # Limit for testing
 
 # Custom headers to bypass 403 errors
 HEADERS = {
