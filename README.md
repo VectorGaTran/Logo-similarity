@@ -1,5 +1,5 @@
 ### Solution Explanation
-
+by Trandafir Victor-Gabriel
 I chose the grouping of logos problem because I have experimented in University with computer vision and machine learning and thought it would be the challenge I would be most able to solve.
 
 I needed to parse logo images, so I looked at the first 10 domains and concluded that I needed to handle various image types (JPGs, PNGs, and SVGs). The SVG files were later converted to PNGs and all images were eventually converted to PIL for further editing and preprocessing, to handle challenges like different resolutions, distortions, and variations in design. I standardized all logos to a 128x128 size.
