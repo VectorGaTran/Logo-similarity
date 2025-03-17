@@ -11,7 +11,6 @@ from lxml import html
 from urllib.parse import urljoin
 import time
 import matplotlib.pyplot as plt
-from skimage.feature import hog
 import cairosvg
 import tensorflow as tf
 from tensorflow.keras import layers, Model
